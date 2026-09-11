@@ -127,7 +127,7 @@ def create_task(list_id, title, due_date, access_token, linked_event_id_value=No
     return _graph("POST", f"/me/todo/lists/{list_id}/tasks", access_token, data=payload)
 
 
-def update_task(list_id, task_id, access_token, title=None, due_date=None, linked_event_id_value=None, status=None):
+def update_task(list_id, task_id, access_token, title=None, due_date=None, status=None):
     payload = {}
     if title is not None:
         payload["title"] = title
@@ -135,15 +135,21 @@ def update_task(list_id, task_id, access_token, title=None, due_date=None, linke
         payload["dueDateTime"] = {"dateTime": f"{due_date}T00:00:00.0000000", "timeZone": "UTC"}
     if status is not None:
         payload["status"] = status
-    if linked_event_id_value is not None:
-        payload["linkedResources"] = [
-            {
-                "applicationName": LINK_APP_NAME,
-                "displayName": "Google Calendar",
-                "externalId": linked_event_id_value,
-            }
-        ]
     return _graph("PATCH", f"/me/todo/lists/{list_id}/tasks/{task_id}", access_token, data=payload)
+
+
+def add_linked_resource(list_id, task_id, event_id, access_token):
+    # linkedResources is a navigation property - Graph rejects it inside a
+    # task PATCH ("Update on linkedResource navigation property is not
+    # supported"). It has to be posted to its own sub-collection endpoint.
+    payload = {
+        "applicationName": LINK_APP_NAME,
+        "displayName": "Google Calendar",
+        "externalId": event_id,
+    }
+    return _graph(
+        "POST", f"/me/todo/lists/{list_id}/tasks/{task_id}/linkedResources", access_token, data=payload
+    )
 
 
 def delete_task(list_id, task_id, access_token):

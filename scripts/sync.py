@@ -258,9 +258,8 @@ def cmd_finalize(args):
             new_event_id = result["googleEventId"]
             if access_token is None:
                 access_token = ms_graph.get_access_token()
-            ms_graph.update_task(
-                action["listId"], action["taskId"], access_token,
-                linked_event_id_value=new_event_id,
+            ms_graph.add_linked_resource(
+                action["listId"], action["taskId"], new_event_id, access_token,
             )
             pairs[action["taskId"]] = {
                 "taskId": action["taskId"],
