@@ -64,6 +64,20 @@ def strip_marker(description):
     return head.rstrip()
 
 
+GERMAN_WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
+
+
+def list_for_date(lists, date_str):
+    """Pick the To Do list named after the event's weekday (e.g. "Donnerstag"),
+    falling back to the first list if there's no matching weekday list."""
+    if date_str:
+        weekday_name = GERMAN_WEEKDAYS[datetime.strptime(date_str, "%Y-%m-%d").weekday()]
+        for lst in lists:
+            if lst.get("displayName", "").strip().lower() == weekday_name.lower():
+                return lst["id"]
+    return lists[0]["id"] if lists else None
+
+
 def content_hash(*parts):
     h = hashlib.sha1()
     for p in parts:
@@ -234,8 +248,8 @@ def cmd_sync(args):
         start_date = event.get("startDate")
         if not start_date or not (win_start <= start_date <= win_end):
             continue
-        # Use the first available list for new events created from Google.
-        target_list = lists[0]["id"] if lists else None
+        # Route to the list named after the event's weekday, if one exists.
+        target_list = list_for_date(lists, start_date)
         if not target_list:
             continue
         new_task = ms_graph.create_task(
