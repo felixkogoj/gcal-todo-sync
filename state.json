@@ -121,28 +121,12 @@
       "eventDate": "2026-09-16"
     },
     {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOmyAAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAA=",
-      "eventId": "mg7t7s8e2c356oshagdma0vvt8",
-      "taskHash": "6685da76b2561185439a0b5591df64b352ec9fe1",
-      "eventHash": "6685da76b2561185439a0b5591df64b352ec9fe1",
-      "eventDate": "2026-09-16"
-    },
-    {
       "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWetUmHAAAA",
       "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAA=",
       "eventId": "r31gda5r756at3hbbhr0rskv70",
       "taskHash": "f146cc62695f0ab20aad929776414fa38fcafd24",
       "eventHash": "f146cc62695f0ab20aad929776414fa38fcafd24",
       "eventDate": "2026-09-12"
-    },
-    {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOm1AAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAA=",
-      "eventId": "o1pgm77uh51io3q9ig5u9g71tg",
-      "taskHash": "dd7c674cd5d34081c7945d3484d7568e916c2175",
-      "eventHash": "788dd78ce26f0309c3c0681b047a38985280d801",
-      "eventDate": "2026-09-11"
     },
     {
       "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOm0AAAA",
@@ -174,6 +158,14 @@
       "eventId": "s7k0bn0ohhkntl54dr3jhtnsm0",
       "taskHash": "789c599bec3cdd5c2c7e8c0037108fff2819651c",
       "eventHash": "f2a5ec3f277265975ae416aba6fde9e05b72b50e",
+      "eventDate": "2026-09-12"
+    },
+    {
+      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWetUmJAAAA",
+      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAA=",
+      "eventId": "7429jl9lja9m7l761jsh9llljs",
+      "taskHash": "14aaf1bff7219a7d73099869e1b2b0e11876cb80",
+      "eventHash": "45ce76f0e849beae0df1a4a738a74d9192f8b1c6",
       "eventDate": "2026-09-12"
     }
   ],
