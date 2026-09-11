@@ -41,6 +41,25 @@ MARKER_PREFIX = "<!--gcalsync:list="
 MARKER_RE_LIST = "list="
 MARKER_RE_TASK = ";task="
 
+# A separate Power Automate flow ("ToDo Sych - Calendar To Do", WU account)
+# independently turns new Google Calendar events titled "[Kategorie] Text"
+# into Microsoft To Do tasks within ~1 minute. If our own sync also tried to
+# create a task for those same events we'd get duplicates, so we leave any
+# event using this bracket convention to that flow entirely.
+POWER_AUTOMATE_CATEGORIES = [
+    "Woche neu", "Woche", "Montag", "Dienstag", "Mittwoch", "Donnerstag",
+    "Freitag", "Samstag", "Sonntag", "Wohnung", "einkaufen",
+    "Longrun Projects", "Unifächer",
+]
+POWER_AUTOMATE_TITLE_RE = re.compile(
+    r"^\[(" + "|".join(re.escape(c) for c in POWER_AUTOMATE_CATEGORIES) + r")\]\s",
+    re.IGNORECASE,
+)
+
+
+def is_power_automate_owned(title):
+    return bool(POWER_AUTOMATE_TITLE_RE.match(title or ""))
+
 
 def make_marker(list_id, task_id):
     return f"<!--gcalsync:list={list_id};task={task_id}-->"
@@ -238,6 +257,11 @@ def cmd_sync(args):
             continue
         if ms_graph.linked_event_id(task):
             continue  # linked from a previous run but pair.json is stale; skip safely
+        if is_power_automate_owned(task["title"]):
+            # A "[Kategorie] Text" task was almost certainly created by the
+            # Power Automate flow FROM an existing calendar event - creating
+            # another event for it here would duplicate that original one.
+            continue
         marked_event_id = task_id_to_marked_event.get(task_id)
         if marked_event_id:
             ms_graph.add_linked_resource(task["_listId"], task_id, marked_event_id, access_token)
@@ -289,6 +313,8 @@ def cmd_sync(args):
         marker = parse_marker(event.get("description", ""))
         if marker:
             continue  # already linked, pair.json just hasn't caught up
+        if is_power_automate_owned(event.get("summary", "")):
+            continue  # the Power Automate flow already turns this into a task
         start_date = event.get("startDate")
         if not start_date or not (win_start <= start_date <= win_end):
             continue

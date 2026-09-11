@@ -112,10 +112,9 @@ def linked_event_id(task):
 
 
 def create_task(list_id, title, due_date, access_token, linked_event_id_value=None):
-    payload = {
-        "title": title,
-        "dueDateTime": {"dateTime": f"{due_date}T00:00:00.0000000", "timeZone": "UTC"},
-    }
+    payload = {"title": title}
+    if due_date:
+        payload["dueDateTime"] = {"dateTime": f"{due_date}T00:00:00.0000000", "timeZone": "UTC"}
     if linked_event_id_value:
         payload["linkedResources"] = [
             {
