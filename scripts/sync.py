@@ -68,6 +68,20 @@ def strip_marker(description):
 GERMAN_WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 
 
+def weekday_index_from_name(name):
+    name = (name or "").strip().lower()
+    for i, w in enumerate(GERMAN_WEEKDAYS):
+        if w.lower() == name:
+            return i
+    return None
+
+
+def next_occurrence_of_weekday(weekday_index, today=None):
+    today = today or datetime.now(timezone.utc).date()
+    days_ahead = (weekday_index - today.weekday()) % 7
+    return (today + timedelta(days=days_ahead)).isoformat()
+
+
 def pick_target_list(lists, title, date_str):
     """Choose which To Do list a new task (created from an unlinked calendar
     event) should land in:
@@ -217,6 +231,8 @@ def cmd_sync(args):
         if marker:
             task_id_to_marked_event[marker[1]] = event_id
 
+    list_id_to_name = {lst["id"]: lst.get("displayName", "") for lst in lists}
+
     for task_id, task in tasks_by_id.items():
         if task_id in handled_task_ids or task.get("status") == "completed":
             continue
@@ -237,7 +253,18 @@ def cmd_sync(args):
             handled_event_ids.add(marked_event_id)
             continue
         due = task_due_date(task)
-        if not due or not (win_start <= due <= win_end):
+        if not due:
+            # No due date set - if the task lives in a weekday-named list
+            # (e.g. "Donnerstag"), treat that as an implicit "next occurrence
+            # of this weekday" due date instead of skipping the task. This is
+            # assigned once, at creation, and never re-derived on later runs
+            # (see taskHashDue below) - it will not keep drifting forward.
+            list_name = list_id_to_name.get(task["_listId"], "")
+            weekday_idx = weekday_index_from_name(list_name)
+            if weekday_idx is None:
+                continue
+            due = next_occurrence_of_weekday(weekday_idx)
+        if not (win_start <= due <= win_end):
             continue
         add_pending(
             "create_event",
@@ -246,6 +273,11 @@ def cmd_sync(args):
                 "listId": task["_listId"],
                 "summary": task["title"],
                 "startDate": due,
+                # What step 1 will hash against on future runs: the task's
+                # real due date if it has one, else "" - matching
+                # `task_due_date(task) or ""` for a still-undated task, so an
+                # inferred date is never mistaken for a later "task changed".
+                "taskHashDue": task_due_date(task) or "",
                 "description": make_marker(task["_listId"], task_id),
             },
         )
@@ -314,7 +346,7 @@ def cmd_finalize(args):
                 "taskId": action["taskId"],
                 "listId": action["listId"],
                 "eventId": new_event_id,
-                "taskHash": content_hash(action["summary"], action["startDate"]),
+                "taskHash": content_hash(action["summary"], action.get("taskHashDue", action["startDate"])),
                 "eventHash": content_hash(action["summary"], action["startDate"]),
                 "eventDate": action["startDate"],
             }
