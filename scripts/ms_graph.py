@@ -21,16 +21,15 @@ LINK_APP_NAME = "GCalToDoSync"
 TOKEN_FILE = os.path.join(os.path.dirname(__file__), "..", "secrets", "ms_token.enc")
 
 
-def _http(method, url, headers=None, data=None):
+def _http(method, url, headers=None, form_data=None, json_body=None):
     headers = dict(headers or {})
     body = None
-    if data is not None:
-        if isinstance(data, dict) and headers.get("Content-Type") != "application/json":
-            body = urllib.parse.urlencode(data).encode()
-            headers.setdefault("Content-Type", "application/x-www-form-urlencoded")
-        else:
-            body = json.dumps(data).encode()
-            headers["Content-Type"] = "application/json"
+    if json_body is not None:
+        body = json.dumps(json_body).encode()
+        headers["Content-Type"] = "application/json"
+    elif form_data is not None:
+        body = urllib.parse.urlencode(form_data).encode()
+        headers.setdefault("Content-Type", "application/x-www-form-urlencoded")
     req = urllib.request.Request(url, data=body, headers=headers, method=method)
     try:
         with urllib.request.urlopen(req) as resp:
@@ -61,7 +60,7 @@ def get_access_token():
     status, resp = _http(
         "POST",
         TOKEN_URL,
-        data={
+        form_data={
             "client_id": MS_CLIENT_ID,
             "grant_type": "refresh_token",
             "refresh_token": refresh_token,
@@ -80,7 +79,7 @@ def _graph(method, path, access_token, data=None):
         method,
         f"{GRAPH_BASE}{path}",
         headers={"Authorization": f"Bearer {access_token}"},
-        data=data,
+        json_body=data,
     )
     if status >= 400:
         raise RuntimeError(f"Graph {method} {path} failed ({status}): {resp}")
