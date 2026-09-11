@@ -182,11 +182,34 @@ def cmd_sync(args):
         pairs[task_id] = pair
 
     # 2. Unlinked Microsoft tasks with a due date in window -> need a new event.
+    # Reverse index: a Google event's marker can point to a task whose own
+    # linkedResources write never completed (e.g. a crashed previous run).
+    # Trust the marker and self-heal rather than creating a duplicate event.
+    task_id_to_marked_event = {}
+    for event_id, event in events_by_id.items():
+        marker = parse_marker(event.get("description", ""))
+        if marker:
+            task_id_to_marked_event[marker[1]] = event_id
+
     for task_id, task in tasks_by_id.items():
         if task_id in handled_task_ids or task.get("status") == "completed":
             continue
         if ms_graph.linked_event_id(task):
             continue  # linked from a previous run but pair.json is stale; skip safely
+        marked_event_id = task_id_to_marked_event.get(task_id)
+        if marked_event_id:
+            ms_graph.add_linked_resource(task["_listId"], task_id, marked_event_id, access_token)
+            marked_event = events_by_id.get(marked_event_id, {})
+            pairs[task_id] = {
+                "taskId": task_id,
+                "listId": task["_listId"],
+                "eventId": marked_event_id,
+                "taskHash": content_hash(task["title"], task_due_date(task) or ""),
+                "eventHash": content_hash(marked_event.get("summary", ""), marked_event.get("startDate", "")),
+                "eventDate": marked_event.get("startDate", ""),
+            }
+            handled_event_ids.add(marked_event_id)
+            continue
         due = task_due_date(task)
         if not due or not (win_start <= due <= win_end):
             continue
