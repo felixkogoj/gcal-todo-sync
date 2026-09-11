@@ -23,6 +23,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 import uuid
 from datetime import datetime, timedelta, timezone
@@ -67,9 +68,20 @@ def strip_marker(description):
 GERMAN_WEEKDAYS = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
 
 
-def list_for_date(lists, date_str):
-    """Pick the To Do list named after the event's weekday (e.g. "Donnerstag"),
-    falling back to the first list if there's no matching weekday list."""
+def pick_target_list(lists, title, date_str):
+    """Choose which To Do list a new task (created from an unlinked calendar
+    event) should land in:
+    1. A list whose name appears as a whole word/phrase in the event title
+       (e.g. title "Shopping: Milch" -> list "Shopping", checking the
+       longest list names first so "Woche neu" wins over "Woche").
+    2. The list named after the event's weekday (e.g. "Donnerstag").
+    3. The first available list, as a last resort.
+    """
+    title_lower = (title or "").lower()
+    for lst in sorted(lists, key=lambda l: -len(l.get("displayName", ""))):
+        name = lst.get("displayName", "").strip()
+        if name and re.search(r"\b" + re.escape(name.lower()) + r"\b", title_lower):
+            return lst["id"]
     if date_str:
         weekday_name = GERMAN_WEEKDAYS[datetime.strptime(date_str, "%Y-%m-%d").weekday()]
         for lst in lists:
@@ -248,8 +260,8 @@ def cmd_sync(args):
         start_date = event.get("startDate")
         if not start_date or not (win_start <= start_date <= win_end):
             continue
-        # Route to the list named after the event's weekday, if one exists.
-        target_list = list_for_date(lists, start_date)
+        # Route by keyword match against list names, then by weekday.
+        target_list = pick_target_list(lists, event.get("summary", ""), start_date)
         if not target_list:
             continue
         new_task = ms_graph.create_task(
