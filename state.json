@@ -151,22 +151,6 @@
       "taskHash": "e07fdd17ebea7b6c9c26ecdc3a1daf1b27e79a54",
       "eventHash": "6cab31bf5785e6b1ae787a34ae0d46c738b77068",
       "eventDate": "2026-09-11"
-    },
-    {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWetUmGAAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAA=",
-      "eventId": "s7k0bn0ohhkntl54dr3jhtnsm0",
-      "taskHash": "789c599bec3cdd5c2c7e8c0037108fff2819651c",
-      "eventHash": "f2a5ec3f277265975ae416aba6fde9e05b72b50e",
-      "eventDate": "2026-09-12"
-    },
-    {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWetUmJAAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAA=",
-      "eventId": "7429jl9lja9m7l761jsh9llljs",
-      "taskHash": "14aaf1bff7219a7d73099869e1b2b0e11876cb80",
-      "eventHash": "45ce76f0e849beae0df1a4a738a74d9192f8b1c6",
-      "eventDate": "2026-09-12"
     }
   ],
   "pendingActions": []
