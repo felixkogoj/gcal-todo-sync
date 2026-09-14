@@ -121,44 +121,12 @@
       "eventDate": "2026-09-16"
     },
     {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWetUmHAAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAA=",
-      "eventId": "r31gda5r756at3hbbhr0rskv70",
-      "taskHash": "f146cc62695f0ab20aad929776414fa38fcafd24",
-      "eventHash": "f146cc62695f0ab20aad929776414fa38fcafd24",
-      "eventDate": "2026-09-12"
-    },
-    {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOm0AAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAA=",
-      "eventId": "em3gqcsj1qse7t1tcscasm6uts",
-      "taskHash": "3aa3e4d6f0e8476e844d808b28f9d18f47497c73",
-      "eventHash": "a0033ee00b70dbac7831620902a377a178ccd968",
-      "eventDate": "2026-09-11"
-    },
-    {
       "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOmzAAAA",
       "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAA=",
       "eventId": "5o2p66qe2dhf7ansf9bmsfoacs",
       "taskHash": "15f565ee2ffe7c46e6ce16101e2875a5027acc0f",
       "eventHash": "e86e1d4b9ee76309dfd28faa57d2f7e52d670656",
       "eventDate": "2026-09-11"
-    },
-    {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOm2AAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAA=",
-      "eventId": "vvigr327ofp7sb97jn5ee8h1a4",
-      "taskHash": "e07fdd17ebea7b6c9c26ecdc3a1daf1b27e79a54",
-      "eventHash": "6cab31bf5785e6b1ae787a34ae0d46c738b77068",
-      "eventDate": "2026-09-11"
-    },
-    {
-      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWhmmf7AAAA",
-      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAA=",
-      "eventId": "4ahtqdu50560sdjrcr9n4jjtoc",
-      "taskHash": "3f8ce5868c5713872dbeae7d72a86bbca9e2db4a",
-      "eventHash": "926a62b0bdb04b3bbdf324bc95d470e93cf2ce0b",
-      "eventDate": "2026-09-14"
     },
     {
       "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABVjoyw4AAAC9sRduojo8SqEH7YACLAY9AAWhmqiEAAAA",
@@ -191,6 +159,22 @@
       "taskHash": "7f2145e47ee9ab8be93235e20e7843fe7a0d25c6",
       "eventHash": "81238aff375585a23fe1698e7a95425ff7e9a3b7",
       "eventDate": "2026-09-17"
+    },
+    {
+      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwcwAAAC9sRduojo8SqEH7YACLAY9AAWhmrY0AAAA",
+      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwcwAAAA=",
+      "eventId": "kfgso66eto0ucooj9s1fkt6gc0",
+      "taskHash": "8ce2ee65c3b9f7d9b9aa8210553974205dbeb153",
+      "eventHash": "8ce2ee65c3b9f7d9b9aa8210553974205dbeb153",
+      "eventDate": "2026-09-14"
+    },
+    {
+      "taskId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWhmt9TAAAA",
+      "listId": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoALgAAA1gyiQw2-4dAks1b_R9nMW0BAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAA=",
+      "eventId": "jb4l6amk9nrgnoc0893fudse70",
+      "taskHash": "9363d717f0bbe98ba9875509c65a80032fa033b2",
+      "eventHash": "9363d717f0bbe98ba9875509c65a80032fa033b2",
+      "eventDate": "2026-09-18"
     }
   ],
   "pendingActions": []
