@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T07:58:35Z",
+  "generatedAt": "2026-09-17T09:59:53Z",
   "lists": {
     "Aufgaben": [
       {
@@ -354,20 +354,13 @@
         "hasCalendarEvent": false
       }
     ],
-    "Donnerstag": [
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc4AAAC9sRduojo8SqEH7YACLAY9AAWhmrogAAAA",
-        "title": "Bank Austria fertig abschließen",
-        "due": null,
-        "hasCalendarEvent": true
-      }
-    ],
+    "Donnerstag": [],
     "einkaufen": [],
     "Freitag": [
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWjwSKdAAAA",
         "title": "Anmeldung Grundzüge des Unternehmensrechts (LV 2434)",
-        "due": "2026-09-16",
+        "due": "2026-09-17",
         "hasCalendarEvent": true
       },
       {
@@ -434,6 +427,14 @@
     ],
     "Montag": [],
     "Organisation": [],
+    "Paragraphen": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABaPBQ9YAAAC9sRduojo8SqEH7YACLAY9AAWjwWdSAAAA",
+        "title": "§26 BAO",
+        "due": null,
+        "hasCalendarEvent": false
+      }
+    ],
     "Praktikum-Fortbildung": [
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABRT3scUAAAC9sRduojo8SqEH7YACLAY9AAUaY5etAAAA",
@@ -482,6 +483,12 @@
     ],
     "Woche neu": [],
     "Wohnung": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABUqM114AAAC9sRduojo8SqEH7YACLAY9AAWjwV12AAAA",
+        "title": "Bank Austria Gutschein erhalten",
+        "due": null,
+        "hasCalendarEvent": false
+      },
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABUqM114AAAC9sRduojo8SqEH7YACLAY9AAVMYhP2AAAA",
         "title": "Thermenwartung durchführen",
