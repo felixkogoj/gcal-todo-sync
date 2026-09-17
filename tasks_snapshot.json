@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T12:00:37Z",
+  "generatedAt": "2026-09-17T12:58:10Z",
   "lists": {
     "Aufgaben": [
       {
@@ -15,74 +15,14 @@
         "hasCalendarEvent": false
       },
       {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7gAAAA=",
-        "title": "Maxi Papa – neue IBAN bekannt geben",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7cAAAA=",
-        "title": "A1 – neue IBAN bekannt geben",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7YAAAA=",
-        "title": "MaxEnergy – neue IBAN bekannt geben (vorher mit Fabi abklären)",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7UAAAA=",
-        "title": "Wien Gruppe – neue IBAN bekannt geben",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7QAAAA=",
-        "title": "Gastino – neue IBAN bekannt geben",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7MAAAA=",
-        "title": "Matthias Kainz – neuer Dauerauftrag (neue IBAN)",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaKbP7IAAAA=",
-        "title": "Wiener Netze – neue IBAN bekannt geben (vorher mit Fabi abklären)",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadb0AAAA=",
         "title": "Steuerrecht lernen beginnen",
         "due": null,
         "hasCalendarEvent": false
       },
       {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadbwAAAA=",
-        "title": "Mama Zettel + E-Card bringen",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadbsAAAA=",
         "title": "Arbeiten Hochzeit 14:30",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadboAAAA=",
-        "title": "Bank Austria fertig abschließen",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadbkAAAA=",
-        "title": "Maxi zu Nachschulung bringen",
         "due": null,
         "hasCalendarEvent": false
       },
@@ -95,54 +35,6 @@
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadbcAAAA=",
         "title": "Arbeiten – HTL Ball Wolfsberg (Kellner)",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaGadbYAAAA=",
-        "title": "Convisio fahren 07:31",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601E4AAAA=",
-        "title": "Sunset arbeiten",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601E0AAAA=",
-        "title": "Anruf bei Michael Puri Steuerberatung",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601EwAAAA=",
-        "title": "Mit Mama zu Oma fahren",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601EsAAAA=",
-        "title": "Einkaufen gehen Klagenfurt",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601EoAAAA=",
-        "title": "Paket zurück zu Zalando bringen",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601EkAAAA=",
-        "title": "Friseur fahren",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABZ601EcAAAA=",
-        "title": "Franky fragen wegen Praktikum",
         "due": null,
         "hasCalendarEvent": false
       },
@@ -291,18 +183,6 @@
         "title": "LPIS: ReSt Kurs III (0174) ---- 14:00",
         "due": "2026-09-30",
         "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABZ60yHUAAAC9sRduojo8SqEH7YACLAY9AAWetW64AAAA",
-        "title": "LPIS: Einführung in das Steuerrecht (2550): 14:00",
-        "due": "2026-09-17",
-        "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABZ60yHUAAAC9sRduojo8SqEH7YACLAY9AAWetW65AAAA",
-        "title": "LPIS: ReSt Kurs I (0450) ---  14:00",
-        "due": "2026-09-16",
-        "hasCalendarEvent": true
       }
     ],
     "Arbeiten": [
@@ -355,7 +235,38 @@
       }
     ],
     "Donnerstag": [],
-    "einkaufen": [],
+    "einkaufen": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABTHoFtYAAAC9sRduojo8SqEH7YACLAY9AAWjwYDiAAAA",
+        "title": "avocado",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABTHoFtYAAAC9sRduojo8SqEH7YACLAY9AAWjwYDhAAAA",
+        "title": "bananen",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABTHoFtYAAAC9sRduojo8SqEH7YACLAY9AAWjwYDgAAAA",
+        "title": "bagggagao",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABTHoFtYAAAC9sRduojo8SqEH7YACLAY9AAWjwYDfAAAA",
+        "title": "gouda",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABTHoFtYAAAC9sRduojo8SqEH7YACLAY9AAWjwYDeAAAA",
+        "title": "Eier",
+        "due": null,
+        "hasCalendarEvent": false
+      }
+    ],
     "Freitag": [
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWjwSKdAAAA",
