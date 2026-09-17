@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-17T20:00:25Z",
+  "generatedAt": "2026-09-17T21:01:08Z",
   "lists": {
     "Aufgaben": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaPBmkQAAAA=",
+        "title": "Vormittag: Steuerrecht lernen",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaPBmkMAAAA=",
+        "title": "Florian zum Bahnhof bringen: 08:13",
+        "due": null,
+        "hasCalendarEvent": false
+      },
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaMSAxIAAAA=",
         "title": "Bankkonto - bis Ende September kündigen",
