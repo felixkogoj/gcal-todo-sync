@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-18T03:58:04Z",
+  "generatedAt": "2026-09-19T12:58:18Z",
   "lists": {
     "Aufgaben": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaWBCrIAAAA=",
+        "title": "Mama Geburtstagfeiern",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaWBCrEAAAA=",
+        "title": "Mama WLAN Mitnehmen",
+        "due": null,
+        "hasCalendarEvent": false
+      },
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaPBmkQAAAA=",
         "title": "Vormittag: Steuerrecht lernen",
@@ -248,32 +260,7 @@
     ],
     "Donnerstag": [],
     "einkaufen": [],
-    "Freitag": [
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWjwSKfAAAA",
-        "title": "Vormittag: Steuerrecht lernen",
-        "due": null,
-        "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWjwSKeAAAA",
-        "title": "Florian zum Bahnhof bringen: 08:13",
-        "due": null,
-        "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWjwSKdAAAA",
-        "title": "Anmeldung Grundzüge des Unternehmensrechts (LV 2434): 14:00",
-        "due": "2026-09-17",
-        "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc8AAAC9sRduojo8SqEH7YACLAY9AAWetOmzAAAA",
-        "title": "Friseur fahren",
-        "due": null,
-        "hasCalendarEvent": true
-      }
-    ],
+    "Freitag": [],
     "KI Ideen": [
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABZY3TzoAAAC9sRduojo8SqEH7YACLAY9AAWWN_MKAAAA",
@@ -286,12 +273,6 @@
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABOryadoAAAC9sRduojo8SqEH7YACLAY9AAWWN2q1AAAA",
         "title": "Anzug",
-        "due": null,
-        "hasCalendarEvent": false
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABOryadoAAAC9sRduojo8SqEH7YACLAY9AAWMsh9nAAAA",
-        "title": "weißes Hemd",
         "due": null,
         "hasCalendarEvent": false
       },
@@ -315,15 +296,33 @@
       }
     ],
     "Longrun Projects": [],
-    "Mittwoch": [
+    "Mittwoch": [],
+    "Montag": [
       {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwc0AAAC9sRduojo8SqEH7YACLAY9AAWjEd3xAAAA",
-        "title": "Rich dad poor dad zusammenfassen",
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGWAAAA",
+        "title": "Mama WLAN Mitnehmen",
+        "due": null,
+        "hasCalendarEvent": true
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGVAAAA",
+        "title": "Mama Geburtstagfeiern",
+        "due": null,
+        "hasCalendarEvent": true
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGUAAAA",
+        "title": "Mama Airfryer kaufen",
+        "due": null,
+        "hasCalendarEvent": true
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGTAAAA",
+        "title": "Post its kaufen gehen",
         "due": null,
         "hasCalendarEvent": true
       }
     ],
-    "Montag": [],
     "Organisation": [],
     "Paragraphen": [
       {
@@ -359,7 +358,14 @@
     "Sonntag": [],
     "Unifächer": [],
     "Woche": [],
-    "Woche neu": [],
+    "Woche neu": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABTqrHywAAAC9sRduojo8SqEH7YACLAY9AAWkt5E_AAAA",
+        "title": "UNIQLO zurückschicken",
+        "due": null,
+        "hasCalendarEvent": false
+      }
+    ],
     "Wohnung": [
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABUqM114AAAC9sRduojo8SqEH7YACLAY9AAWjwV12AAAA",
