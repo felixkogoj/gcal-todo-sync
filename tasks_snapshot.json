@@ -1,7 +1,19 @@
 {
-  "generatedAt": "2026-09-19T12:58:18Z",
+  "generatedAt": "2026-09-19T13:58:24Z",
   "lists": {
     "Aufgaben": [
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaWBCrQAAAA=",
+        "title": "Mama Airfryer kaufen",
+        "due": null,
+        "hasCalendarEvent": false
+      },
+      {
+        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaWBCrMAAAA=",
+        "title": "Post its kaufen gehen",
+        "due": null,
+        "hasCalendarEvent": false
+      },
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0AAAIBEgAAAL2xF26iOjxKoQftgAIsBj0ABaWBCrIAAAA=",
         "title": "Mama Geburtstagfeiern",
