@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T20:57:39Z",
+  "generatedAt": "2026-09-20T21:58:21Z",
   "lists": {
     "Aufgaben": [
       {
@@ -307,7 +307,6 @@
         "hasCalendarEvent": false
       }
     ],
-    "Longrun Projects": [],
     "Mittwoch": [],
     "Montag": [
       {
@@ -368,7 +367,6 @@
     ],
     "Sommerferien": [],
     "Sonntag": [],
-    "Unifächer": [],
     "Woche": [],
     "Woche neu": [
       {
@@ -379,12 +377,6 @@
       }
     ],
     "Wohnung": [
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABUqM114AAAC9sRduojo8SqEH7YACLAY9AAWjwV12AAAA",
-        "title": "Bank Austria Gutschein erhalten",
-        "due": null,
-        "hasCalendarEvent": false
-      },
       {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABUqM114AAAC9sRduojo8SqEH7YACLAY9AAVMYhP2AAAA",
         "title": "Thermenwartung durchführen",
