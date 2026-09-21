@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T15:59:17Z",
+  "generatedAt": "2026-09-21T17:59:26Z",
   "lists": {
     "Aufgaben": [
       {
@@ -310,24 +310,6 @@
     "Mittwoch": [],
     "Montag": [
       {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGWAAAA",
-        "title": "Mama WLAN Mitnehmen",
-        "due": null,
-        "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGVAAAA",
-        "title": "Mama Geburtstagfeiern",
-        "due": null,
-        "hasCalendarEvent": true
-      },
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGUAAAA",
-        "title": "Mama Airfryer kaufen",
-        "due": null,
-        "hasCalendarEvent": true
-      },
-      {
         "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSuFDGEAAAC9sRduojo8SqEH7YACLAY9AAWlgOGTAAAA",
         "title": "Post its kaufen gehen",
         "due": null,
@@ -357,14 +339,7 @@
         "hasCalendarEvent": false
       }
     ],
-    "Samstag": [
-      {
-        "id": "AQMkADAwATM0MDAAMS0yYTE5LWI0NABhLTAwAi0wMAoARgAAA1gyiQw2-4dAks1b_R9nMW0HAL2xF26iOjxKoQftgAIsBj0ABSkXwdAAAAC9sRduojo8SqEH7YACLAY9AAWhmt9TAAAA",
-        "title": "Arbeiten Hochzeit 14:30",
-        "due": "2026-09-18",
-        "hasCalendarEvent": true
-      }
-    ],
+    "Samstag": [],
     "Sommerferien": [],
     "Sonntag": [],
     "Woche": [],
